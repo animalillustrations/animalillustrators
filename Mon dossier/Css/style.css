@@ -1,0 +1,197 @@
+/* barre de navigation */
+img{
+    width: 90px;
+    height: 90px;
+}
+.barre_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 95%;
+}
+button{
+    color:black;
+    border: #fdd7d0;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #fbffff, #d4e6e1);
+    box-shadow:  20px 20px 60px #c8d9d5,
+             -20px -20px 60px #ffffff;
+    padding: 15px 10px 15px 10px;
+    width: 100px;
+    height: 80px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+button:hover{
+    color: #e4fbf6;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #ffe6df, #e4c2bb);
+    box-shadow:  20px 20px 60px #d7b7b1,
+             -20px -20px 60px #fff7ef;
+}
+#contactus{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#contactus:hover{
+    color: #fdd7d0;
+    font-size: 200%;
+}
+
+#a_propos{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#a_propos:hover{
+    color: #fdd7d0;
+    font-size: 200%;
+}
+
+/* Titre */
+h1{
+    text-align: center;
+    padding: 100px;
+}
+#titre{
+    font-family: 'Dancing Script', cursive;
+    font-size: 150%;
+}
+#portrait{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+#presentatio{
+    color: black;
+}
+#presentatio:hover{
+    font-size: 150%;
+    color: #fdd7d0;
+}
+#photo{
+    color: black;
+}
+#photo:hover{
+    font-size: 150%;
+    color: #fdd7d0;
+}
+
+
+/* Logo */
+#logo_du_site{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 8px;
+}
+#logo{
+    width: 400px;
+    height: 400px;
+}
+
+/* Commentaire */
+#presentation{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 200%;
+    text-align: center;
+}
+.commentaire{
+    margin: 50px;
+    padding: 20px;
+}
+#commentaire{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 120%;
+}
+#commentaire2{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 120%;
+}
+#commentaire3{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 120%;
+}
+#commentaire4{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 120%;
+}
+
+/* Portrait */
+#portrait{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 200%;
+    text-align: center;
+}
+#panda{
+    width: 200px;
+    height: 200px;
+}
+#giraffe{
+    width: 250px;
+    height: 250px;
+}
+#abeille{
+    width: 200px;
+    height: 200px;
+}
+.panda_giraffe_abeille{
+    display: flex;
+    justify-content: space-around;
+}
+#singe{
+    width: 200px;
+    height: 200px;
+}
+
+#pinguin{
+    width: 250px;
+    height: 250px;
+}
+#koala{
+    width: 200px;
+    height: 200px;
+}
+.koala_singe_pinguin{
+    display: flex;
+    justify-content: space-around;
+}
+#photos{
+    margin: 30px;
+    padding: 50px;
+}
+
+/* Contact */
+#contact{
+    background-color:#f5fffd ;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    padding: 8px;
+    margin: 20px;
+}
+#behance{
+    color: black;
+}
+#behance:hover{
+    color: #fdd7d0;
+    font-size: 200%;
+}
+.tel_mail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 110%;
+    color: black;
+}
+#copyright{
+    display: flex;
+    justify-content: right;
+}
+
+
